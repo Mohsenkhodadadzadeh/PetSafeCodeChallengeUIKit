@@ -12,11 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Force Xcode 11
-        run: sudo xcode-select -switch /Applications/Xcode_13.3.app
         
       - name: Run tests
-        run: xcodebuild -project 'PetSafeCodeChallengeUIKit.xcodeproj' -scheme 'PetSafeCodeChallengeUIKit' -destination 'platform=iOS Simulator,name=iPhone 12' test
+        run: xcodebuild -project 'PetSafeCodeChallengeUIKit.xcodeproj' -scheme 'PetSafeCodeChallengeUIKit' -destination 'platform=iOS Simulator,name=iPhone 13' test
 
       # Runs a set of commands using the runners shell
       - name: Build App
