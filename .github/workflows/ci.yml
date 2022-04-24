@@ -13,8 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         
-      - name: install simulators
-        run: xcversion simulators --install='iOS 14.0'
+      - name: list simulators
+        run: |
+          "instruments -s devices | grep ^iPhone"
         
       - name: Run tests
         run: xcodebuild -project 'PetSafeCodeChallengeUIKit.xcodeproj' -scheme 'PetSafeCodeChallengeUIKit' -destination 'platform=iOS Simulator,name=iPhone 11' test
