@@ -17,7 +17,7 @@ jobs:
         run: xcversion simulators --install='iOS 14.0'
         
       - name: Run tests
-        run: xcodebuild -project 'PetSafeCodeChallengeUIKit.xcodeproj' -scheme 'PetSafeCodeChallengeUIKit' -destination 'platform=iOS Simulator,name=iPhone 13' test
+        run: xcodebuild -project 'PetSafeCodeChallengeUIKit.xcodeproj' -scheme 'PetSafeCodeChallengeUIKit' -destination 'platform=iOS Simulator,name=iPhone 11' test
 
       # Runs a set of commands using the runners shell
       - name: Build App
