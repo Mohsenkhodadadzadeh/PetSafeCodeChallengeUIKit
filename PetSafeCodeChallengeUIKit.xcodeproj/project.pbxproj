@@ -36,6 +36,17 @@
 		82C78B0728167F87003AB766 /* ExchangeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0628167F87003AB766 /* ExchangeRouter.swift */; };
 		82C78B0928167FAC003AB766 /* Collection+SafeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0828167FAC003AB766 /* Collection+SafeIndex.swift */; };
 		82C78B0C2816834D003AB766 /* NameOfCurrenciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0B2816834D003AB766 /* NameOfCurrenciesVC.swift */; };
+		82C78B0E2816B55A003AB766 /* TimeSeriesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0D2816B55A003AB766 /* TimeSeriesEntity.swift */; };
+		82C78B102816B84D003AB766 /* TimeSeriesRatesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0F2816B84D003AB766 /* TimeSeriesRatesEntity.swift */; };
+		82C78B132816BACB003AB766 /* ExchangeHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B122816BACB003AB766 /* ExchangeHistoryVC.swift */; };
+		82C78B152816C20E003AB766 /* ExchangeHistoryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B142816C20E003AB766 /* ExchangeHistoryCVC.swift */; };
+		82C78B182816C278003AB766 /* ExchangeHistoryCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B172816C278003AB766 /* ExchangeHistoryCVCell.swift */; };
+		82C78B1A2816C96F003AB766 /* ExchangeHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B192816C96F003AB766 /* ExchangeHistoryView.swift */; };
+		82C78B1C2816C9C6003AB766 /* ExchangeHistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B1B2816C9C6003AB766 /* ExchangeHistoryInteractor.swift */; };
+		82C78B1E2816C9F0003AB766 /* ExchangeHistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B1D2816C9F0003AB766 /* ExchangeHistoryPresenter.swift */; };
+		82C78B202816CA1A003AB766 /* ExchangeHistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B1F2816CA1A003AB766 /* ExchangeHistoryRouter.swift */; };
+		82C78B222816CC8A003AB766 /* TimeSeriesRateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B212816CC8A003AB766 /* TimeSeriesRateEntity.swift */; };
+		82C78B242816E49A003AB766 /* Date+utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B232816E49A003AB766 /* Date+utils.swift */; };
 		82F617072815D4F700282CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F617062815D4F700282CBF /* AppDelegate.swift */; };
 		82F617092815D4F700282CBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F617082815D4F700282CBF /* SceneDelegate.swift */; };
 		82F6170B2815D4F700282CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6170A2815D4F700282CBF /* ViewController.swift */; };
@@ -94,6 +105,17 @@
 		82C78B0628167F87003AB766 /* ExchangeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRouter.swift; sourceTree = "<group>"; };
 		82C78B0828167FAC003AB766 /* Collection+SafeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+SafeIndex.swift"; sourceTree = "<group>"; };
 		82C78B0B2816834D003AB766 /* NameOfCurrenciesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameOfCurrenciesVC.swift; sourceTree = "<group>"; };
+		82C78B0D2816B55A003AB766 /* TimeSeriesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSeriesEntity.swift; sourceTree = "<group>"; };
+		82C78B0F2816B84D003AB766 /* TimeSeriesRatesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSeriesRatesEntity.swift; sourceTree = "<group>"; };
+		82C78B122816BACB003AB766 /* ExchangeHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeHistoryVC.swift; sourceTree = "<group>"; };
+		82C78B142816C20E003AB766 /* ExchangeHistoryCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeHistoryCVC.swift; sourceTree = "<group>"; };
+		82C78B172816C278003AB766 /* ExchangeHistoryCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeHistoryCVCell.swift; sourceTree = "<group>"; };
+		82C78B192816C96F003AB766 /* ExchangeHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeHistoryView.swift; sourceTree = "<group>"; };
+		82C78B1B2816C9C6003AB766 /* ExchangeHistoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeHistoryInteractor.swift; sourceTree = "<group>"; };
+		82C78B1D2816C9F0003AB766 /* ExchangeHistoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeHistoryPresenter.swift; sourceTree = "<group>"; };
+		82C78B1F2816CA1A003AB766 /* ExchangeHistoryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeHistoryRouter.swift; sourceTree = "<group>"; };
+		82C78B212816CC8A003AB766 /* TimeSeriesRateEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSeriesRateEntity.swift; sourceTree = "<group>"; };
+		82C78B232816E49A003AB766 /* Date+utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+utils.swift"; sourceTree = "<group>"; };
 		82F617032815D4F700282CBF /* PetSafeCodeChallengeUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetSafeCodeChallengeUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F617062815D4F700282CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82F617082815D4F700282CBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +187,9 @@
 				82C78AD528167536003AB766 /* ErrorEntity.swift */,
 				82C78AD728167548003AB766 /* SymbolsEntity.swift */,
 				82C78AD928167557003AB766 /* GenericEntity.swift */,
+				82C78B0D2816B55A003AB766 /* TimeSeriesEntity.swift */,
+				82C78B0F2816B84D003AB766 /* TimeSeriesRatesEntity.swift */,
+				82C78B212816CC8A003AB766 /* TimeSeriesRateEntity.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -193,6 +218,7 @@
 		82C78AEB28167A86003AB766 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				82C78B112816BA9D003AB766 /* ExchangeHistory */,
 				82C78B0A28168300003AB766 /* NameOfCurrencies */,
 				82C78AF828167EA1003AB766 /* Exchange */,
 				82C78AEC28167A94003AB766 /* Symbols */,
@@ -214,6 +240,7 @@
 			children = (
 				82C78AF228167B0D003AB766 /* String+Utils.swift */,
 				82C78B0828167FAC003AB766 /* Collection+SafeIndex.swift */,
+				82C78B232816E49A003AB766 /* Date+utils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -246,6 +273,28 @@
 				82C78B0B2816834D003AB766 /* NameOfCurrenciesVC.swift */,
 			);
 			path = NameOfCurrencies;
+			sourceTree = "<group>";
+		};
+		82C78B112816BA9D003AB766 /* ExchangeHistory */ = {
+			isa = PBXGroup;
+			children = (
+				82C78B162816C249003AB766 /* CollectionViewCell */,
+				82C78B122816BACB003AB766 /* ExchangeHistoryVC.swift */,
+				82C78B142816C20E003AB766 /* ExchangeHistoryCVC.swift */,
+				82C78B192816C96F003AB766 /* ExchangeHistoryView.swift */,
+				82C78B1B2816C9C6003AB766 /* ExchangeHistoryInteractor.swift */,
+				82C78B1D2816C9F0003AB766 /* ExchangeHistoryPresenter.swift */,
+				82C78B1F2816CA1A003AB766 /* ExchangeHistoryRouter.swift */,
+			);
+			path = ExchangeHistory;
+			sourceTree = "<group>";
+		};
+		82C78B162816C249003AB766 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				82C78B172816C278003AB766 /* ExchangeHistoryCVCell.swift */,
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 		82F616FA2815D4F700282CBF = {
@@ -439,13 +488,17 @@
 				82C78AD828167548003AB766 /* SymbolsEntity.swift in Sources */,
 				82C78ACD28167491003AB766 /* AnyPresenter.swift in Sources */,
 				82F617072815D4F700282CBF /* AppDelegate.swift in Sources */,
+				82C78B132816BACB003AB766 /* ExchangeHistoryVC.swift in Sources */,
+				82C78B182816C278003AB766 /* ExchangeHistoryCVCell.swift in Sources */,
 				82C78AF728167E52003AB766 /* ExchangeSymbols.swift in Sources */,
 				82C78AD228167516003AB766 /* BaseEntity.swift in Sources */,
 				82C78AFB28167EBF003AB766 /* ExchangeTVC.swift in Sources */,
 				82C78B0328167F4C003AB766 /* ExchangePresenter.swift in Sources */,
 				82C78AE62816766E003AB766 /* NetworkErrors.swift in Sources */,
 				82C78B0C2816834D003AB766 /* NameOfCurrenciesVC.swift in Sources */,
+				82C78B202816CA1A003AB766 /* ExchangeHistoryRouter.swift in Sources */,
 				82F617092815D4F700282CBF /* SceneDelegate.swift in Sources */,
+				82C78B222816CC8A003AB766 /* TimeSeriesRateEntity.swift in Sources */,
 				82C78ACB2816747F003AB766 /* AnyInteractor.swift in Sources */,
 				82C78AE228167604003AB766 /* InternalServerError.swift in Sources */,
 				82C78AE0281675F1003AB766 /* SuccessResponse.swift in Sources */,
@@ -453,11 +506,18 @@
 				82C78AFD28167EDE003AB766 /* ExchangeVC.swift in Sources */,
 				82C78B0128167F2F003AB766 /* ExchangeIntractor.swift in Sources */,
 				82C78AE428167614003AB766 /* FixerErrorResponse.swift in Sources */,
+				82C78B1E2816C9F0003AB766 /* ExchangeHistoryPresenter.swift in Sources */,
+				82C78B0E2816B55A003AB766 /* TimeSeriesEntity.swift in Sources */,
+				82C78B1C2816C9C6003AB766 /* ExchangeHistoryInteractor.swift in Sources */,
+				82C78B242816E49A003AB766 /* Date+utils.swift in Sources */,
 				82C78AD428167527003AB766 /* RatesEntity.swift in Sources */,
+				82C78B1A2816C96F003AB766 /* ExchangeHistoryView.swift in Sources */,
 				82C78AF028167AD0003AB766 /* SymbolsEnums.swift in Sources */,
 				82C78ADA28167557003AB766 /* GenericEntity.swift in Sources */,
+				82C78B102816B84D003AB766 /* TimeSeriesRatesEntity.swift in Sources */,
 				82C78AFF28167F06003AB766 /* ExchangeView.swift in Sources */,
 				82C78AE82816769A003AB766 /* Network.swift in Sources */,
+				82C78B152816C20E003AB766 /* ExchangeHistoryCVC.swift in Sources */,
 				82C78B0928167FAC003AB766 /* Collection+SafeIndex.swift in Sources */,
 				82C78AC92816746C003AB766 /* AnyView.swift in Sources */,
 				82C78ACF281674A1003AB766 /* AnyRouter.swift in Sources */,

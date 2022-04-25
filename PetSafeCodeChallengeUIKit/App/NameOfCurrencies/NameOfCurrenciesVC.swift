@@ -9,8 +9,10 @@ import Foundation
 
 import UIKit
 
-protocol NameOfCurrenciesDelegate: class {
+protocol SelectedRowsInTableDelegate: class {
     func updateIndex(index: Int)
+    
+    func update(rows: [SymbolsEnums])
 }
 
 class NameOfCurrenciesVC: UIViewController {
@@ -61,7 +63,11 @@ class NameOfCurrenciesVC: UIViewController {
 
 }
 
-extension NameOfCurrenciesVC: NameOfCurrenciesDelegate {
+extension NameOfCurrenciesVC: SelectedRowsInTableDelegate {
+    func update(rows: [SymbolsEnums]) {
+        
+    }
+    
     func updateIndex(index: Int) {
         selectedIndex = index
     }

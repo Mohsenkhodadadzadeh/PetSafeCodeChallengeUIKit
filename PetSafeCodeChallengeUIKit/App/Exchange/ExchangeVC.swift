@@ -11,12 +11,20 @@ protocol ExchangeVCDelegate: class {
     func update(symbol: SymbolsEnums)
 }
 
+
+
 class ExchangeVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var inputTextField: UITextField!
     @IBOutlet weak var currencyNameLabel: UILabel!
+    @IBOutlet weak var historyButton: UIButton!
     
+    var selectedItems: [SymbolsEnums] = [] {
+        didSet {
+            historyButton.isHidden = selectedItems.count < 2
+        }
+    }
     var presenter: AnyPresenter?
     var baseRate: SymbolsEnums = .EUR {
         didSet {
@@ -33,6 +41,7 @@ class ExchangeVC: UIViewController {
         
         tableView.dataSource = tableviewHandler
         tableView.delegate = tableviewHandler
+        tableviewHandler.delegate = self
         // Do any additional setup after loading the view.
     }
     
@@ -48,6 +57,16 @@ class ExchangeVC: UIViewController {
     
     @IBAction func changeBasetRateButtonPressed(sender: UIButton) {
         
+    }
+    
+    @IBAction func historyButtonPressed(sender: UIButton) {
+//        let exchangeHistoryRouter = ExchangeHistoryRouter.start()
+//        if let view = exchangeHistoryRouter.view as? ExchangeHistoryVC {
+//            view.symbolItems = selectedItems
+//            view.moneyAmount = Double(inputTextField.text ?? "")
+//            self.present(view, animated: true, completion: nil)
+//     
+//        }
     }
     
     private func renewRate() {
@@ -81,6 +100,10 @@ class ExchangeVC: UIViewController {
         if segue.destination is NameOfCurrenciesVC {
             let vc = segue.destination as? NameOfCurrenciesVC
             vc?.delegate = self
+        } else if segue.destination is ExchangeHistoryVC {
+            let vc = segue.destination as? ExchangeHistoryVC
+            vc?.symbolItems = selectedItems
+            vc?.moneyAmount = Double(inputTextField.text ?? "")
         }
     }
 
@@ -91,5 +114,18 @@ extension ExchangeVC: ExchangeVCDelegate {
         self.baseRate = symbol
     }
     
+}
+
+extension ExchangeVC: SelectedRowsInTableDelegate {
+    func updateIndex(index: Int) {
+        
+    }
     
+    func update(rows: [SymbolsEnums]) {
+        selectedItems = []
+        for item in rows {
+            selectedItems.append(item)
+        }
+        
+    }
 }

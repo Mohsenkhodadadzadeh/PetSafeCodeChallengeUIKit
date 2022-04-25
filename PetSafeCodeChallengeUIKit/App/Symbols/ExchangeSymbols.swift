@@ -42,4 +42,16 @@ final class ExchangeSymbols {
         return symbols[symbol] ?? symbol.rawValue
     
     }
+    
+    func get(fullName: String) -> SymbolsEnums {
+        for (key, value) in symbols {
+            if value == fullName {
+                return key
+            }
+        }
+        if let obj = SymbolsEnums(rawValue: fullName) {
+            return obj
+        }
+        return .Undefined
+    }
 }

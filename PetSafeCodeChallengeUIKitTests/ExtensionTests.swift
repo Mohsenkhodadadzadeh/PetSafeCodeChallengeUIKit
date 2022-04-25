@@ -33,6 +33,20 @@ class ExtensionTests: XCTestCase {
         XCTAssertEqual(firstDate, convertingDate)
     }
 
+    func testConvertDateToString() throws {
+        var dateComponents = DateComponents()
+        dateComponents.year = 2020
+        dateComponents.month = 2
+        dateComponents.day = 1
+        dateComponents.timeZone = TimeZone(abbreviation: "UTC")
+
+        let firstDate = Calendar.current.date(from: dateComponents)
+        
+        let stringOfFirstDate = firstDate?.convertToString()
+        let stringPredictedDate = "2020-02-01"
+        
+        XCTAssertEqual(stringOfFirstDate, stringPredictedDate)
+    }
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

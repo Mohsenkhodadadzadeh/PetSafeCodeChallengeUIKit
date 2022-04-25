@@ -11,7 +11,9 @@ class ExchangeTVHandler : NSObject, UITableViewDelegate, UITableViewDataSource {
     
     var exchangeData: [(String, Double?)] = []
     
-    weak var delegate: NameOfCurrenciesDelegate?
+    private var selectedSymbols: [SymbolsEnums: Bool] = [:]
+    
+    weak var delegate: SelectedRowsInTableDelegate?
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         exchangeData.count
@@ -30,5 +32,24 @@ class ExchangeTVHandler : NSObject, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
         delegate?.updateIndex(index: indexPath.row)
+        
+        if let selectedItem = exchangeData[safe: indexPath.row]?.0 {
+            let symbol = ExchangeSymbols.shared.get(fullName: selectedItem)
+            selectedSymbols[symbol] = true
+            let retObj = selectedSymbols.map({ $0.key })
+                delegate?.update(rows: retObj)
+            
+            
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        
+        if let selectedItem = exchangeData[safe: indexPath.row]?.0 {
+            let symbol = ExchangeSymbols.shared.get(fullName: selectedItem)
+            selectedSymbols[symbol] = nil
+            let retObj = selectedSymbols.map({ $0.key })
+                delegate?.update(rows: retObj)
+        }
     }
 }
