@@ -70,6 +70,13 @@
             ReferencedContainer = "container:PetSafeCodeChallengeUIKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "access_key"
+            value = "ea1fbe87cd40f95efc9be8c55023f826"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
