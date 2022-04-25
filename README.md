@@ -14,6 +14,10 @@ this app needs an access key to communicate with the API server and this key is 
 ![Environment variable](https://github.com/Mohsenkhodadadzadeh/PetSafeCodeChallengeUIKit/blob/Master/ReadmeImages/envvar.png)
 
 
+## Note:
+I prepared the second step (History of an amount) , but I couldnt test it because the related API isn't available on the free Plan ( on the Fixer website) so I didn't merge it to develop and master: you can find it here: [time series view branch](https://github.com/Mohsenkhodadadzadeh/PetSafeCodeChallengeUIKit/tree/timeSeriesView)
+
+
 ## Architecture pattern and design patterns:
 the project is developed by VIPER as the Architecture pattern and a couple of design patterns are used for some specific purposes, a chain of responsibility pattern to handle HTTP response, a couple of delegate pattern for communicating between viewcontrollers, and a Singleton pattern to share full name of a symbol.
 
