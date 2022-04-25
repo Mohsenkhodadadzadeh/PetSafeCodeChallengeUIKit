@@ -97,7 +97,36 @@ class ServicesTests: XCTestCase {
         }
     }
     
-    
+    func testFetchDataFromExchangeAnyView() {
+        
+        let testView = TestView()
+        let testObj = ExchangeRouter.start(testView)
+        (testView.presenter as? ExchangePresenter)?.getData()
+        
+        class TestView: AnyView {
+            
+            var presenter: AnyPresenter?
+            
+            let resultExpection = XCTestExpectation(description: "waiting for the result")
+           
+            func update<T>(with result: T) where T : Decodable, T : Encodable {
+                print(result as? BaseEntity)
+                resultExpection.fulfill()
+                XCTAssertNotNil(result as?BaseEntity)
+                
+            }
+            
+            func update(with error: Error) {
+                print(error.localizedDescription)
+                resultExpection.fulfill()
+                XCTAssertTrue(error is NetworkErrors)
+            }
+            
+            
+        }
+        
+        wait(for: [testView.resultExpection], timeout: 30)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
