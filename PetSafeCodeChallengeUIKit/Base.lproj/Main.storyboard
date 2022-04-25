@@ -26,22 +26,24 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dj3-hJ-HMy">
                                                 <rect key="frame" x="0.0" y="0.0" width="34.5" height="40"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="currencyNameLabel"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bOk-7c-wpd">
-                                                <rect key="frame" x="34.5" y="0.0" width="219.5" height="40"/>
+                                                <rect key="frame" x="34.5" y="0.0" width="199.5" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NM-jP-xa3">
-                                                <rect key="frame" x="254" y="0.0" width="120" height="40"/>
+                                                <rect key="frame" x="234" y="0.0" width="140" height="40"/>
                                                 <color key="backgroundColor" name="AccentColor"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="changeCurrency"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="120" id="nVf-Vc-OCn"/>
+                                                    <constraint firstAttribute="width" constant="140" id="nVf-Vc-OCn"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="change Rate">
+                                                <buttonConfiguration key="configuration" style="plain" title="change Currency">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -56,12 +58,14 @@
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7FW-nC-WvD">
                                                 <rect key="frame" x="0.0" y="0.0" width="279.5" height="40"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="inputTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryP-qV-Cy2">
                                                 <rect key="frame" x="289.5" y="0.0" width="84.5" height="40"/>
                                                 <color key="backgroundColor" name="AccentColor"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="calculateButton"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Calculate">
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -129,7 +133,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="exchangeRateLabel" destination="dj3-hJ-HMy" id="TKu-Er-Aop"/>
+                        <outlet property="currencyNameLabel" destination="dj3-hJ-HMy" id="TKu-Er-Aop"/>
                         <outlet property="inputTextField" destination="7FW-nC-WvD" id="XSA-kl-swZ"/>
                         <outlet property="tableView" destination="Xlv-ew-nJ6" id="396-tr-JSa"/>
                     </connections>
@@ -148,6 +152,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EIp-ta-eEa">
                                 <rect key="frame" x="330" y="77" width="59" height="31"/>
+                                <accessibility key="accessibilityConfiguration" identifier="DoneButton"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Done"/>
                                 <connections>

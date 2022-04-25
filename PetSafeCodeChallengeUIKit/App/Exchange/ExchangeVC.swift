@@ -15,7 +15,7 @@ class ExchangeVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var inputTextField: UITextField!
-    @IBOutlet weak var exchangeRateLabel: UILabel!
+    @IBOutlet weak var currencyNameLabel: UILabel!
     
     var presenter: AnyPresenter?
     var baseRate: SymbolsEnums = .EUR {
@@ -74,7 +74,7 @@ class ExchangeVC: UIViewController {
         attributedString.append(minSpendText)
         attributedString.append(priceText)
         
-        exchangeRateLabel.attributedText = attributedString
+        currencyNameLabel.attributedText = attributedString
     }
  
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
