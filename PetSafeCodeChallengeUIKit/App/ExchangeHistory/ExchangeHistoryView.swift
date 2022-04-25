@@ -40,10 +40,7 @@ extension ExchangeHistoryVC: AnyView {
     }
     
     func update(with error: Error) {
-        let retTest = [["Date", "USD", "AED"], ["22-10-2022", "1.2", "8"], ["21-10-2022","1.23", "7"]]
-        collectionViewHandler.data = retTest
-        collectionView.reloadData()
-        
+       
         let errorAlert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
         
         let doneAction = UIAlertAction(title: "done", style: .default)
