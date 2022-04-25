@@ -26,6 +26,16 @@
 		82C78AF028167AD0003AB766 /* SymbolsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AEF28167AD0003AB766 /* SymbolsEnums.swift */; };
 		82C78AF328167B0D003AB766 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AF228167B0D003AB766 /* String+Utils.swift */; };
 		82C78AF528167B3A003AB766 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AF428167B3A003AB766 /* ExtensionTests.swift */; };
+		82C78AF728167E52003AB766 /* ExchangeSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AF628167E52003AB766 /* ExchangeSymbols.swift */; };
+		82C78AFB28167EBF003AB766 /* ExchangeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AFA28167EBF003AB766 /* ExchangeTVC.swift */; };
+		82C78AFD28167EDE003AB766 /* ExchangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AFC28167EDE003AB766 /* ExchangeVC.swift */; };
+		82C78AFF28167F06003AB766 /* ExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AFE28167F06003AB766 /* ExchangeView.swift */; };
+		82C78B0128167F2F003AB766 /* ExchangeIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0028167F2F003AB766 /* ExchangeIntractor.swift */; };
+		82C78B0328167F4C003AB766 /* ExchangePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0228167F4C003AB766 /* ExchangePresenter.swift */; };
+		82C78B0528167F67003AB766 /* ExchangeTVHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0428167F67003AB766 /* ExchangeTVHandler.swift */; };
+		82C78B0728167F87003AB766 /* ExchangeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0628167F87003AB766 /* ExchangeRouter.swift */; };
+		82C78B0928167FAC003AB766 /* Collection+SafeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0828167FAC003AB766 /* Collection+SafeIndex.swift */; };
+		82C78B0C2816834D003AB766 /* NameOfCurrenciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0B2816834D003AB766 /* NameOfCurrenciesVC.swift */; };
 		82F617072815D4F700282CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F617062815D4F700282CBF /* AppDelegate.swift */; };
 		82F617092815D4F700282CBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F617082815D4F700282CBF /* SceneDelegate.swift */; };
 		82F6170B2815D4F700282CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6170A2815D4F700282CBF /* ViewController.swift */; };
@@ -74,6 +84,16 @@
 		82C78AEF28167AD0003AB766 /* SymbolsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsEnums.swift; sourceTree = "<group>"; };
 		82C78AF228167B0D003AB766 /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
 		82C78AF428167B3A003AB766 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		82C78AF628167E52003AB766 /* ExchangeSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeSymbols.swift; sourceTree = "<group>"; };
+		82C78AFA28167EBF003AB766 /* ExchangeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTVC.swift; sourceTree = "<group>"; };
+		82C78AFC28167EDE003AB766 /* ExchangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeVC.swift; sourceTree = "<group>"; };
+		82C78AFE28167F06003AB766 /* ExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeView.swift; sourceTree = "<group>"; };
+		82C78B0028167F2F003AB766 /* ExchangeIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeIntractor.swift; sourceTree = "<group>"; };
+		82C78B0228167F4C003AB766 /* ExchangePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangePresenter.swift; sourceTree = "<group>"; };
+		82C78B0428167F67003AB766 /* ExchangeTVHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTVHandler.swift; sourceTree = "<group>"; };
+		82C78B0628167F87003AB766 /* ExchangeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRouter.swift; sourceTree = "<group>"; };
+		82C78B0828167FAC003AB766 /* Collection+SafeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+SafeIndex.swift"; sourceTree = "<group>"; };
+		82C78B0B2816834D003AB766 /* NameOfCurrenciesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameOfCurrenciesVC.swift; sourceTree = "<group>"; };
 		82F617032815D4F700282CBF /* PetSafeCodeChallengeUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetSafeCodeChallengeUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F617062815D4F700282CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82F617082815D4F700282CBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +193,8 @@
 		82C78AEB28167A86003AB766 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				82C78B0A28168300003AB766 /* NameOfCurrencies */,
+				82C78AF828167EA1003AB766 /* Exchange */,
 				82C78AEC28167A94003AB766 /* Symbols */,
 			);
 			path = App;
@@ -182,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				82C78AEF28167AD0003AB766 /* SymbolsEnums.swift */,
+				82C78AF628167E52003AB766 /* ExchangeSymbols.swift */,
 			);
 			path = Symbols;
 			sourceTree = "<group>";
@@ -190,8 +213,39 @@
 			isa = PBXGroup;
 			children = (
 				82C78AF228167B0D003AB766 /* String+Utils.swift */,
+				82C78B0828167FAC003AB766 /* Collection+SafeIndex.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		82C78AF828167EA1003AB766 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				82C78AF928167EAD003AB766 /* TableViewCell */,
+				82C78AFC28167EDE003AB766 /* ExchangeVC.swift */,
+				82C78AFE28167F06003AB766 /* ExchangeView.swift */,
+				82C78B0028167F2F003AB766 /* ExchangeIntractor.swift */,
+				82C78B0228167F4C003AB766 /* ExchangePresenter.swift */,
+				82C78B0428167F67003AB766 /* ExchangeTVHandler.swift */,
+				82C78B0628167F87003AB766 /* ExchangeRouter.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		82C78AF928167EAD003AB766 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				82C78AFA28167EBF003AB766 /* ExchangeTVC.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		82C78B0A28168300003AB766 /* NameOfCurrencies */ = {
+			isa = PBXGroup;
+			children = (
+				82C78B0B2816834D003AB766 /* NameOfCurrenciesVC.swift */,
+			);
+			path = NameOfCurrencies;
 			sourceTree = "<group>";
 		};
 		82F616FA2815D4F700282CBF = {
@@ -385,20 +439,30 @@
 				82C78AD828167548003AB766 /* SymbolsEntity.swift in Sources */,
 				82C78ACD28167491003AB766 /* AnyPresenter.swift in Sources */,
 				82F617072815D4F700282CBF /* AppDelegate.swift in Sources */,
+				82C78AF728167E52003AB766 /* ExchangeSymbols.swift in Sources */,
 				82C78AD228167516003AB766 /* BaseEntity.swift in Sources */,
+				82C78AFB28167EBF003AB766 /* ExchangeTVC.swift in Sources */,
+				82C78B0328167F4C003AB766 /* ExchangePresenter.swift in Sources */,
 				82C78AE62816766E003AB766 /* NetworkErrors.swift in Sources */,
+				82C78B0C2816834D003AB766 /* NameOfCurrenciesVC.swift in Sources */,
 				82F617092815D4F700282CBF /* SceneDelegate.swift in Sources */,
 				82C78ACB2816747F003AB766 /* AnyInteractor.swift in Sources */,
 				82C78AE228167604003AB766 /* InternalServerError.swift in Sources */,
 				82C78AE0281675F1003AB766 /* SuccessResponse.swift in Sources */,
+				82C78B0728167F87003AB766 /* ExchangeRouter.swift in Sources */,
+				82C78AFD28167EDE003AB766 /* ExchangeVC.swift in Sources */,
+				82C78B0128167F2F003AB766 /* ExchangeIntractor.swift in Sources */,
 				82C78AE428167614003AB766 /* FixerErrorResponse.swift in Sources */,
 				82C78AD428167527003AB766 /* RatesEntity.swift in Sources */,
 				82C78AF028167AD0003AB766 /* SymbolsEnums.swift in Sources */,
 				82C78ADA28167557003AB766 /* GenericEntity.swift in Sources */,
+				82C78AFF28167F06003AB766 /* ExchangeView.swift in Sources */,
 				82C78AE82816769A003AB766 /* Network.swift in Sources */,
+				82C78B0928167FAC003AB766 /* Collection+SafeIndex.swift in Sources */,
 				82C78AC92816746C003AB766 /* AnyView.swift in Sources */,
 				82C78ACF281674A1003AB766 /* AnyRouter.swift in Sources */,
 				82C78AD628167536003AB766 /* ErrorEntity.swift in Sources */,
+				82C78B0528167F67003AB766 /* ExchangeTVHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
