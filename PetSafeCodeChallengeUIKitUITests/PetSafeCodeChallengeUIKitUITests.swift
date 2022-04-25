@@ -38,4 +38,51 @@ class PetSafeCodeChallengeUIKitUITests: XCTestCase {
             }
         }
     }
+    
+    func testWrongAccessKey() throws {
+        
+        let app = XCUIApplication()
+        app.launchEnvironment = ["access_key": "ea1fbe87cd40f95efc9be8c55023f8267"]
+        app.launch()
+        let errorAlert = app.alerts["Error"]
+        expectation(for: NSPredicate(format: "exists == 1"), evaluatedWith: errorAlert, handler: nil)
+        waitForExpectations(timeout: 5, handler: nil)
+        XCTAssertTrue(errorAlert.staticTexts["You have not supplied a valid API Access Key. [Technical Support: support@apilayer.com]"].exists)
+        errorAlert.buttons["done"].tap()
+        
+    }
+    
+    func testExchangeCurrencies() throws {
+        
+        let app = XCUIApplication()
+        app.launchEnvironment = ["access_key": "ea1fbe87cd40f95efc9be8c55023f826"]
+        app.launch()
+        let inputTextField = app.textFields["inputTextField"]
+        inputTextField.tap()
+        inputTextField.typeText("130")
+        
+        sleep(5)
+        app.buttons["calculateButton"].tap()
+        
+        XCTAssertTrue(app.tables.cells.staticTexts["Canadian Dollar"].exists)
+        
+    }
+    
+    func testChangeBaseCurrency() throws {
+        
+        let app = XCUIApplication()
+        app.launchEnvironment = ["access_key": "ea1fbe87cd40f95efc9be8c55023f826"]
+        app.launch()
+        sleep(5)
+        app.buttons["changeCurrency"].tap()
+        app.tables.cells.staticTexts["Australian Dollar"].tap()
+        app.buttons["DoneButton"].tap()
+        if (app.alerts["Error"].exists) {
+            app.alerts["Error"].scrollViews.otherElements.buttons["done"].tap()
+        }
+        
+        XCTAssertTrue(app.staticTexts["the base rate is AUD"].exists)
+        
+        
+    }
 }

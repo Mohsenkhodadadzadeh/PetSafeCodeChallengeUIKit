@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82C78AC92816746C003AB766 /* AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AC82816746C003AB766 /* AnyView.swift */; };
+		82C78ACB2816747F003AB766 /* AnyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78ACA2816747F003AB766 /* AnyInteractor.swift */; };
+		82C78ACD28167491003AB766 /* AnyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78ACC28167491003AB766 /* AnyPresenter.swift */; };
+		82C78ACF281674A1003AB766 /* AnyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78ACE281674A1003AB766 /* AnyRouter.swift */; };
+		82C78AD228167516003AB766 /* BaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AD128167516003AB766 /* BaseEntity.swift */; };
+		82C78AD428167527003AB766 /* RatesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AD328167527003AB766 /* RatesEntity.swift */; };
+		82C78AD628167536003AB766 /* ErrorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AD528167536003AB766 /* ErrorEntity.swift */; };
+		82C78AD828167548003AB766 /* SymbolsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AD728167548003AB766 /* SymbolsEntity.swift */; };
+		82C78ADA28167557003AB766 /* GenericEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AD928167557003AB766 /* GenericEntity.swift */; };
+		82C78ADE281675E0003AB766 /* NetworkChainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78ADD281675E0003AB766 /* NetworkChainProtocol.swift */; };
+		82C78AE0281675F1003AB766 /* SuccessResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78ADF281675F1003AB766 /* SuccessResponse.swift */; };
+		82C78AE228167604003AB766 /* InternalServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AE128167604003AB766 /* InternalServerError.swift */; };
+		82C78AE428167614003AB766 /* FixerErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AE328167614003AB766 /* FixerErrorResponse.swift */; };
+		82C78AE62816766E003AB766 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AE52816766E003AB766 /* NetworkErrors.swift */; };
+		82C78AE82816769A003AB766 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AE72816769A003AB766 /* Network.swift */; };
+		82C78AEA281677B9003AB766 /* ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AE9281677B9003AB766 /* ServicesTests.swift */; };
+		82C78AF028167AD0003AB766 /* SymbolsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AEF28167AD0003AB766 /* SymbolsEnums.swift */; };
+		82C78AF328167B0D003AB766 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AF228167B0D003AB766 /* String+Utils.swift */; };
+		82C78AF528167B3A003AB766 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AF428167B3A003AB766 /* ExtensionTests.swift */; };
+		82C78AF728167E52003AB766 /* ExchangeSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AF628167E52003AB766 /* ExchangeSymbols.swift */; };
+		82C78AFB28167EBF003AB766 /* ExchangeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AFA28167EBF003AB766 /* ExchangeTVC.swift */; };
+		82C78AFD28167EDE003AB766 /* ExchangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AFC28167EDE003AB766 /* ExchangeVC.swift */; };
+		82C78AFF28167F06003AB766 /* ExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78AFE28167F06003AB766 /* ExchangeView.swift */; };
+		82C78B0128167F2F003AB766 /* ExchangeIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0028167F2F003AB766 /* ExchangeIntractor.swift */; };
+		82C78B0328167F4C003AB766 /* ExchangePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0228167F4C003AB766 /* ExchangePresenter.swift */; };
+		82C78B0528167F67003AB766 /* ExchangeTVHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0428167F67003AB766 /* ExchangeTVHandler.swift */; };
+		82C78B0728167F87003AB766 /* ExchangeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0628167F87003AB766 /* ExchangeRouter.swift */; };
+		82C78B0928167FAC003AB766 /* Collection+SafeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0828167FAC003AB766 /* Collection+SafeIndex.swift */; };
+		82C78B0C2816834D003AB766 /* NameOfCurrenciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C78B0B2816834D003AB766 /* NameOfCurrenciesVC.swift */; };
 		82F617072815D4F700282CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F617062815D4F700282CBF /* AppDelegate.swift */; };
 		82F617092815D4F700282CBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F617082815D4F700282CBF /* SceneDelegate.swift */; };
 		82F6170B2815D4F700282CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6170A2815D4F700282CBF /* ViewController.swift */; };
@@ -36,6 +65,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82C78AC82816746C003AB766 /* AnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyView.swift; sourceTree = "<group>"; };
+		82C78ACA2816747F003AB766 /* AnyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyInteractor.swift; sourceTree = "<group>"; };
+		82C78ACC28167491003AB766 /* AnyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyPresenter.swift; sourceTree = "<group>"; };
+		82C78ACE281674A1003AB766 /* AnyRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyRouter.swift; sourceTree = "<group>"; };
+		82C78AD128167516003AB766 /* BaseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEntity.swift; sourceTree = "<group>"; };
+		82C78AD328167527003AB766 /* RatesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesEntity.swift; sourceTree = "<group>"; };
+		82C78AD528167536003AB766 /* ErrorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEntity.swift; sourceTree = "<group>"; };
+		82C78AD728167548003AB766 /* SymbolsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsEntity.swift; sourceTree = "<group>"; };
+		82C78AD928167557003AB766 /* GenericEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEntity.swift; sourceTree = "<group>"; };
+		82C78ADD281675E0003AB766 /* NetworkChainProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkChainProtocol.swift; sourceTree = "<group>"; };
+		82C78ADF281675F1003AB766 /* SuccessResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessResponse.swift; sourceTree = "<group>"; };
+		82C78AE128167604003AB766 /* InternalServerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalServerError.swift; sourceTree = "<group>"; };
+		82C78AE328167614003AB766 /* FixerErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixerErrorResponse.swift; sourceTree = "<group>"; };
+		82C78AE52816766E003AB766 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		82C78AE72816769A003AB766 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		82C78AE9281677B9003AB766 /* ServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTests.swift; sourceTree = "<group>"; };
+		82C78AEF28167AD0003AB766 /* SymbolsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsEnums.swift; sourceTree = "<group>"; };
+		82C78AF228167B0D003AB766 /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		82C78AF428167B3A003AB766 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		82C78AF628167E52003AB766 /* ExchangeSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeSymbols.swift; sourceTree = "<group>"; };
+		82C78AFA28167EBF003AB766 /* ExchangeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTVC.swift; sourceTree = "<group>"; };
+		82C78AFC28167EDE003AB766 /* ExchangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeVC.swift; sourceTree = "<group>"; };
+		82C78AFE28167F06003AB766 /* ExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeView.swift; sourceTree = "<group>"; };
+		82C78B0028167F2F003AB766 /* ExchangeIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeIntractor.swift; sourceTree = "<group>"; };
+		82C78B0228167F4C003AB766 /* ExchangePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangePresenter.swift; sourceTree = "<group>"; };
+		82C78B0428167F67003AB766 /* ExchangeTVHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTVHandler.swift; sourceTree = "<group>"; };
+		82C78B0628167F87003AB766 /* ExchangeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRouter.swift; sourceTree = "<group>"; };
+		82C78B0828167FAC003AB766 /* Collection+SafeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+SafeIndex.swift"; sourceTree = "<group>"; };
+		82C78B0B2816834D003AB766 /* NameOfCurrenciesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameOfCurrenciesVC.swift; sourceTree = "<group>"; };
 		82F617032815D4F700282CBF /* PetSafeCodeChallengeUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetSafeCodeChallengeUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F617062815D4F700282CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82F617082815D4F700282CBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +134,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82C78AC62816707D003AB766 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				82F617082815D4F700282CBF /* SceneDelegate.swift */,
+				82F617062815D4F700282CBF /* AppDelegate.swift */,
+				82F6170F2815D4F900282CBF /* Assets.xcassets */,
+				82F617112815D4F900282CBF /* LaunchScreen.storyboard */,
+				82F617142815D4F900282CBF /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		82C78AC728167455003AB766 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				82C78AC82816746C003AB766 /* AnyView.swift */,
+				82C78ACA2816747F003AB766 /* AnyInteractor.swift */,
+				82C78ACC28167491003AB766 /* AnyPresenter.swift */,
+				82C78ACE281674A1003AB766 /* AnyRouter.swift */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		82C78AD028167502003AB766 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				82C78AD128167516003AB766 /* BaseEntity.swift */,
+				82C78AD328167527003AB766 /* RatesEntity.swift */,
+				82C78AD528167536003AB766 /* ErrorEntity.swift */,
+				82C78AD728167548003AB766 /* SymbolsEntity.swift */,
+				82C78AD928167557003AB766 /* GenericEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		82C78ADB281675C1003AB766 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				82C78ADC281675CD003AB766 /* Chain network */,
+				82C78AE52816766E003AB766 /* NetworkErrors.swift */,
+				82C78AE72816769A003AB766 /* Network.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		82C78ADC281675CD003AB766 /* Chain network */ = {
+			isa = PBXGroup;
+			children = (
+				82C78ADD281675E0003AB766 /* NetworkChainProtocol.swift */,
+				82C78ADF281675F1003AB766 /* SuccessResponse.swift */,
+				82C78AE128167604003AB766 /* InternalServerError.swift */,
+				82C78AE328167614003AB766 /* FixerErrorResponse.swift */,
+			);
+			path = "Chain network";
+			sourceTree = "<group>";
+		};
+		82C78AEB28167A86003AB766 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				82C78B0A28168300003AB766 /* NameOfCurrencies */,
+				82C78AF828167EA1003AB766 /* Exchange */,
+				82C78AEC28167A94003AB766 /* Symbols */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		82C78AEC28167A94003AB766 /* Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				82C78AEF28167AD0003AB766 /* SymbolsEnums.swift */,
+				82C78AF628167E52003AB766 /* ExchangeSymbols.swift */,
+			);
+			path = Symbols;
+			sourceTree = "<group>";
+		};
+		82C78AF128167AF8003AB766 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82C78AF228167B0D003AB766 /* String+Utils.swift */,
+				82C78B0828167FAC003AB766 /* Collection+SafeIndex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		82C78AF828167EA1003AB766 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				82C78AF928167EAD003AB766 /* TableViewCell */,
+				82C78AFC28167EDE003AB766 /* ExchangeVC.swift */,
+				82C78AFE28167F06003AB766 /* ExchangeView.swift */,
+				82C78B0028167F2F003AB766 /* ExchangeIntractor.swift */,
+				82C78B0228167F4C003AB766 /* ExchangePresenter.swift */,
+				82C78B0428167F67003AB766 /* ExchangeTVHandler.swift */,
+				82C78B0628167F87003AB766 /* ExchangeRouter.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		82C78AF928167EAD003AB766 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				82C78AFA28167EBF003AB766 /* ExchangeTVC.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		82C78B0A28168300003AB766 /* NameOfCurrencies */ = {
+			isa = PBXGroup;
+			children = (
+				82C78B0B2816834D003AB766 /* NameOfCurrenciesVC.swift */,
+			);
+			path = NameOfCurrencies;
+			sourceTree = "<group>";
+		};
 		82F616FA2815D4F700282CBF = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +271,14 @@
 		82F617052815D4F700282CBF /* PetSafeCodeChallengeUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				82F617062815D4F700282CBF /* AppDelegate.swift */,
-				82F617082815D4F700282CBF /* SceneDelegate.swift */,
+				82C78AF128167AF8003AB766 /* Extensions */,
+				82C78AEB28167A86003AB766 /* App */,
+				82C78ADB281675C1003AB766 /* Services */,
+				82C78AD028167502003AB766 /* Entities */,
+				82C78AC728167455003AB766 /* Structure */,
+				82C78AC62816707D003AB766 /* SupportingFiles */,
 				82F6170A2815D4F700282CBF /* ViewController.swift */,
 				82F6170C2815D4F700282CBF /* Main.storyboard */,
-				82F6170F2815D4F900282CBF /* Assets.xcassets */,
-				82F617112815D4F900282CBF /* LaunchScreen.storyboard */,
-				82F617142815D4F900282CBF /* Info.plist */,
 			);
 			path = PetSafeCodeChallengeUIKit;
 			sourceTree = "<group>";
@@ -114,6 +287,8 @@
 			isa = PBXGroup;
 			children = (
 				82F6171D2815D4FA00282CBF /* PetSafeCodeChallengeUIKitTests.swift */,
+				82C78AE9281677B9003AB766 /* ServicesTests.swift */,
+				82C78AF428167B3A003AB766 /* ExtensionTests.swift */,
 			);
 			path = PetSafeCodeChallengeUIKitTests;
 			sourceTree = "<group>";
@@ -258,9 +433,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C78AF328167B0D003AB766 /* String+Utils.swift in Sources */,
 				82F6170B2815D4F700282CBF /* ViewController.swift in Sources */,
+				82C78ADE281675E0003AB766 /* NetworkChainProtocol.swift in Sources */,
+				82C78AD828167548003AB766 /* SymbolsEntity.swift in Sources */,
+				82C78ACD28167491003AB766 /* AnyPresenter.swift in Sources */,
 				82F617072815D4F700282CBF /* AppDelegate.swift in Sources */,
+				82C78AF728167E52003AB766 /* ExchangeSymbols.swift in Sources */,
+				82C78AD228167516003AB766 /* BaseEntity.swift in Sources */,
+				82C78AFB28167EBF003AB766 /* ExchangeTVC.swift in Sources */,
+				82C78B0328167F4C003AB766 /* ExchangePresenter.swift in Sources */,
+				82C78AE62816766E003AB766 /* NetworkErrors.swift in Sources */,
+				82C78B0C2816834D003AB766 /* NameOfCurrenciesVC.swift in Sources */,
 				82F617092815D4F700282CBF /* SceneDelegate.swift in Sources */,
+				82C78ACB2816747F003AB766 /* AnyInteractor.swift in Sources */,
+				82C78AE228167604003AB766 /* InternalServerError.swift in Sources */,
+				82C78AE0281675F1003AB766 /* SuccessResponse.swift in Sources */,
+				82C78B0728167F87003AB766 /* ExchangeRouter.swift in Sources */,
+				82C78AFD28167EDE003AB766 /* ExchangeVC.swift in Sources */,
+				82C78B0128167F2F003AB766 /* ExchangeIntractor.swift in Sources */,
+				82C78AE428167614003AB766 /* FixerErrorResponse.swift in Sources */,
+				82C78AD428167527003AB766 /* RatesEntity.swift in Sources */,
+				82C78AF028167AD0003AB766 /* SymbolsEnums.swift in Sources */,
+				82C78ADA28167557003AB766 /* GenericEntity.swift in Sources */,
+				82C78AFF28167F06003AB766 /* ExchangeView.swift in Sources */,
+				82C78AE82816769A003AB766 /* Network.swift in Sources */,
+				82C78B0928167FAC003AB766 /* Collection+SafeIndex.swift in Sources */,
+				82C78AC92816746C003AB766 /* AnyView.swift in Sources */,
+				82C78ACF281674A1003AB766 /* AnyRouter.swift in Sources */,
+				82C78AD628167536003AB766 /* ErrorEntity.swift in Sources */,
+				82C78B0528167F67003AB766 /* ExchangeTVHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +470,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C78AF528167B3A003AB766 /* ExtensionTests.swift in Sources */,
 				82F6171E2815D4FA00282CBF /* PetSafeCodeChallengeUIKitTests.swift in Sources */,
+				82C78AEA281677B9003AB766 /* ServicesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +642,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PetSafeCodeChallengeUIKit/Info.plist;
+				INFOPLIST_FILE = PetSafeCodeChallengeUIKit/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -465,7 +669,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PetSafeCodeChallengeUIKit/Info.plist;
+				INFOPLIST_FILE = PetSafeCodeChallengeUIKit/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -492,7 +696,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mohsen.PetSafeCodeChallengeUIKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,7 +715,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mohsen.PetSafeCodeChallengeUIKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
